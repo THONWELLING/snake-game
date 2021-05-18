@@ -1,0 +1,30 @@
+
+body{
+    position: relative;
+    height: 90vh;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgba(9, 9, 14, 0.884);
+    text-shadow: 0 0.2rem 0.4rem rgba(255, 246, 246, 0.9);
+    background-color: rgba(107, 105, 105, 0.76)
+
+    
+}
+canvas{
+    border: ;
+    border-color: solid rgb(8, 17, 17);
+    border-radius: 0.5rem;
+    box-sizing: content-box;
+}
+body img{
+    width: 512px;
+    height: 500px;
+    box-sizing: content-box;
+    opacity: .5;
+    object-fit: cover;
+    position: absolute;
+    bottom: 0;
+}
